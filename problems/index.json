@@ -1,0 +1,37 @@
+{
+  "problems": [
+    {
+      "id": "beginner-001-corner-life",
+      "title": "黑先做活",
+      "difficulty": "beginner",
+      "firstPlayer": "B",
+      "boardSize": 19,
+      "tags": [
+        "做活"
+      ],
+      "file": "beginner/001-corner-life.sgf"
+    },
+    {
+      "id": "beginner-002-corner-kill",
+      "title": "黑先杀棋",
+      "difficulty": "beginner",
+      "firstPlayer": "B",
+      "boardSize": 19,
+      "tags": [
+        "杀棋"
+      ],
+      "file": "beginner/002-corner-kill.sgf"
+    },
+    {
+      "id": "intermediate-001-edge-tesuji",
+      "title": "黑先",
+      "difficulty": "intermediate",
+      "firstPlayer": "B",
+      "boardSize": 19,
+      "tags": [
+        "手筋"
+      ],
+      "file": "intermediate/001-edge-tesuji.sgf"
+    }
+  ]
+}

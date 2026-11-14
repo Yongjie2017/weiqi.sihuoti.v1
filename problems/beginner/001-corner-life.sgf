@@ -1,0 +1,15 @@
+(;GM[1]FF[4]CA[UTF-8]SZ[19]PL[B]C[黑先做活
+角上黑棋如何做活？]
+AB[ba][ca][ab][bb][cb]
+AW[da][db][eb][ac][bc]
+(;B[dc]C[正解：扳]
+ (;W[ec]C[白挡]
+  (;B[dd]C[正解：虎，做活完成]N[正解]RE[+B])
+ )
+)
+(;B[da]C[失败：冲]
+ (;W[dc]C[白挡]
+  (;B[ec]C[失败]N[失败]RE[-B])
+ )
+)
+)

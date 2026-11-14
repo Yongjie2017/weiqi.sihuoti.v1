@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>围棋死活题</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="app">
+    <div id="sidebar">
+      <h1>围棋死活题</h1>
+      <div id="problem-list"></div>
+    </div>
+    <div id="main-area">
+      <div id="info-bar">
+        <span id="problem-title"></span>
+        <span id="problem-comment"></span>
+      </div>
+      <div id="board-container">
+        <canvas id="board-canvas"></canvas>
+      </div>
+      <div id="controls">
+        <button id="btn-study" class="mode-btn active">研究模式</button>
+        <button id="btn-play" class="mode-btn">对弈模式</button>
+        <button id="btn-undo">悔棋</button>
+        <button id="btn-reset">重置</button>
+        <button id="btn-hint">提示</button>
+      </div>
+      <div id="status-bar"></div>
+    </div>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/board-canvas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

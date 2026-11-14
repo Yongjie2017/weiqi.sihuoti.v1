@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "executablePath": "katago",
+  "args": ["gtp", "-model", "model.bin", "-config", "default_gtp.cfg"],
+  "comment": "Set enabled to true and configure KataGo path to enable play mode"
+}
